@@ -1,0 +1,26 @@
+2025-05-08 17:38:25,474 - INFO - :  Input details file path = C:\Users\skaliyap\PycharmProjects\github-utilities\CustomPropRuleInput.txt
+2025-05-08 17:38:25,476 - INFO - : ...Customer Property setting - Process  Start...
+2025-05-08 17:38:25,476 - INFO - : 1... Processing repository: 'testOrg204507/testRepo204507' 
+2025-05-08 17:38:25,500 - ERROR - : [ERROR] Failed to get branches: HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /repos/testOrg204507/testRepo204507/branches (Caused by SSLError(SSLError(136, '[X509: NO_CERTIFICATE_OR_CRL_FOUND] no certificate or crl found (_ssl.c:4166)')))
+2025-05-08 17:38:25,501 - ERROR - : [WARNING] Branch 'testBranch1' does not exist in repository. Available branches: 
+2025-05-08 17:38:25,501 - INFO - : Updating repository settings for 'testOrg204507/testRepo204507'...
+2025-05-08 17:38:25,507 - ERROR - : [ERROR] Error processing repository settings for 'testOrg204507/testRepo204507': HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /repos/testOrg204507/testRepo204507 (Caused by SSLError(SSLError(136, '[X509: NO_CERTIFICATE_OR_CRL_FOUND] no certificate or crl found (_ssl.c:4166)')))
+2025-05-08 17:38:25,508 - INFO - : Setting custom properties: [owner=admin user,testCustom=custom]
+2025-05-08 17:38:25,508 - INFO - : ... custom_prop = 'owner' : value to be set = 'admin user' 
+2025-05-08 17:38:25,515 - ERROR - : [ERROR] Error updating custom properties for 'testOrg204507/testRepo204507': HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /repos/testOrg204507/testRepo204507/properties/values (Caused by SSLError(SSLError(136, '[X509: NO_CERTIFICATE_OR_CRL_FOUND] no certificate or crl found (_ssl.c:4166)')))
+2025-05-08 17:38:25,515 - INFO - : ... custom_prop = 'testCustom' : value to be set = 'custom' 
+2025-05-08 17:38:25,522 - ERROR - : [ERROR] Error updating custom properties for 'testOrg204507/testRepo204507': HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /repos/testOrg204507/testRepo204507/properties/values (Caused by SSLError(SSLError(136, '[X509: NO_CERTIFICATE_OR_CRL_FOUND] no certificate or crl found (_ssl.c:4166)')))
+2025-05-08 17:38:25,522 - INFO - : *** Customer Property setting Process Completed... Review Status & log file... ***
+2025-05-08 17:38:35,753 - INFO - :  Input details file path = C:\Users\skaliyap\PycharmProjects\github-utilities\CustomPropRuleInput.txt
+2025-05-08 17:38:35,755 - INFO - : ...Customer Property setting - Process  Start...
+2025-05-08 17:38:35,756 - INFO - : 1... Processing repository: 'testOrg204507/testRepo204507' 
+2025-05-08 17:38:35,806 - ERROR - : [ERROR] Failed to get branches: HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /repos/testOrg204507/testRepo204507/branches (Caused by SSLError(SSLError(136, '[X509: NO_CERTIFICATE_OR_CRL_FOUND] no certificate or crl found (_ssl.c:4166)')))
+2025-05-08 17:38:35,808 - ERROR - : [WARNING] Branch 'testBranch1' does not exist in repository. Available branches: 
+2025-05-08 17:38:35,808 - INFO - : Updating repository settings for 'testOrg204507/testRepo204507'...
+2025-05-08 17:38:35,813 - ERROR - : [ERROR] Error processing repository settings for 'testOrg204507/testRepo204507': HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /repos/testOrg204507/testRepo204507 (Caused by SSLError(SSLError(136, '[X509: NO_CERTIFICATE_OR_CRL_FOUND] no certificate or crl found (_ssl.c:4166)')))
+2025-05-08 17:38:35,813 - INFO - : Setting custom properties: [owner=admin user,testCustom=custom]
+2025-05-08 17:38:35,814 - INFO - : ... custom_prop = 'owner' : value to be set = 'admin user' 
+2025-05-08 17:38:35,820 - ERROR - : [ERROR] Error updating custom properties for 'testOrg204507/testRepo204507': HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /repos/testOrg204507/testRepo204507/properties/values (Caused by SSLError(SSLError(136, '[X509: NO_CERTIFICATE_OR_CRL_FOUND] no certificate or crl found (_ssl.c:4166)')))
+2025-05-08 17:38:35,820 - INFO - : ... custom_prop = 'testCustom' : value to be set = 'custom' 
+2025-05-08 17:38:35,825 - ERROR - : [ERROR] Error updating custom properties for 'testOrg204507/testRepo204507': HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /repos/testOrg204507/testRepo204507/properties/values (Caused by SSLError(SSLError(136, '[X509: NO_CERTIFICATE_OR_CRL_FOUND] no certificate or crl found (_ssl.c:4166)')))
+2025-05-08 17:38:35,826 - INFO - : *** Customer Property setting Process Completed... Review Status & log file... ***
